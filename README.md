@@ -1,4 +1,3 @@
 # Company_Profit
 
-You can visit the website by clicking
-https://company-profit.onrender.com/predict
+The App is Deployed Here - https://company-profit.onrender.com/
