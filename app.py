@@ -2,12 +2,9 @@ import json
 from flask import Flask, render_template, request, jsonify
 from joblib import Parallel, delayed
 import joblib
-import pickle
 import time
-from flask_ngrok import run_with_ngrok
 
 app = Flask(__name__, template_folder='template')
-#run_with_ngrok(app)
 model = joblib.load('data/Best_model.pkl')
         
 # -------------------------------------------------------------------------------------------
